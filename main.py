@@ -9,3 +9,5 @@ user3={"user_id":3,"username":"Javohir"}
 data_base.insert(user1)
 data_base.insert(user2)
 data_base.insert(user3)
+
+data_base.insert_multiple([user3,user1,user2])
